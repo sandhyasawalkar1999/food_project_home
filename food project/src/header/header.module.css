@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.headerContainer{
+     display: flex;
+     justify-content: space-between;
+     gap: 2rem;
+     background-color: rgb(33, 33, 62);
+     padding: 30px 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.one{
+    display: flex;
+    align-items: center;
+
+}
+.one a{
+    font-size: 1.3rem;
+    margin-left: 20px;
+  
+}
+.headerContainer a{
+    text-decoration: none;
+    color:white;
+}
+.middleContainer{
+    gap:2rem;
+    display: flex;
+}
+.middleContainer a:hover{
+    color: blue;
+}
+.btn{
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: brown;
+    border: none;
+    color: white;
+}
+.btn:hover{
+
+    background-color: rgb(147, 250, 95);
+    box-shadow: 2px 2px 3px rgb(147, 250, 95);
+    color: black;
+    cursor: pointer;
+}
